@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras en línea - Blog de Curiosidades</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <header>
+        <h1>🛍️ Tienda Curiosa</h1>
+        <nav>
+            <ul>
+            <li><a href="index.html" class="activo">Inicio</a></li>
+                <li><a href="productos.html" class="activo">Productos y Servicios</a></li>
+                <li><a href="promociones.html" class="activo">Promociones</a></li>
+                <li><a href="ciencia.html">Ciencia</a></li>
+                <li><a href="tecnologia.html">Tecnología</a></li>
+                <li><a href="entretenimiento.html">Entretenimiento</a></li>
+                <li><a href="compras.html">Compras</a></li>
+                <li><a href="objetivo.html" class="activo">Objetivo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Elige tus productos curiosos favoritos 🤩</h2>
+        <section class="productos">
+            <article>
+                <img src="images/libro.jpg" alt="Libro de Curiosidades">
+                <h3>Libro de Curiosidades</h3>
+                <p>Descubre hechos increíbles del mundo natural, la ciencia y la historia.</p>
+                <p><strong>$250 MXN</strong></p>
+                <button>Agregar al carrito</button>
+            </article>
+
+            <article>
+                <img src="images/taza.jpg" alt="Taza curiosa">
+                <h3>Taza “Dato del día”</h3>
+                <p>Cada mañana, una frase o dato curioso diferente. Ideal para café o té ☕</p>
+                <p><strong>$180 MXN</strong></p>
+                <button>Agregar al carrito</button>
+            </article>
+
+            <article>
+                <img src="images/playera.jpg" alt="Playera curiosa">
+                <h3>Playera temática</h3>
+                <p>Diseños inspirados en la ciencia y la tecnología. Viste tu curiosidad 👕</p>
+                <p><strong>$299 MXN</strong></p>
+                <button>Agregar al carrito</button>
+            </article>
+        </section>
+
+        <section class="formulario-compra">
+            <h2>Completa tu compra 🧾</h2>
+            <form>
+                <label>Nombre completo:</label>
+                <input type="text" required>
+
+                <label>Correo electrónico:</label>
+                <input type="email" required>
+
+                <label>Dirección de envío:</label>
+                <textarea required></textarea>
+
+                <label>Método de pago:</label>
+                <select required>
+                    <option>Tarjeta de crédito</option>
+                    <option>Tarjeta de débito</option>
+                    <option>Transferencia</option>
+                    <option>Pago contra entrega</option>
+                </select>
+
+                <button type="submit">Finalizar Compra</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Blog de Curiosidades. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
